@@ -1,7 +1,7 @@
 {
-  "name": "codexten/yii-module-country",
+  "name": "codexten/yii-module-state",
   "type": "library",
-  "description": "Country module for yii 2.0 or higher",
+  "description": "State module for yii 2.0 or higher",
   "require": {
     "codexten/yii-web": "^2.0",
     "symfony/intl": "*",
@@ -10,14 +10,14 @@
   },
   "autoload": {
     "psr-4": {
-      "codexten\\yii\\modules\\country\\": "src"
+      "codexten\\yii\\modules\\state\\": "src"
     }
   },
   "extra": {
     "branch-alias": {
       "dev-master": "2.0.x-dev"
     },
-    "config-plugin": {
+    "sconfig-plugin": {
       "moduleLocale": "config/moduleCountry.php",
       "migrationNamespaces": "config/migrationNamespaces.php"
     }
